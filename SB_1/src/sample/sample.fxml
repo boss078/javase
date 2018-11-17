@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+    <children>
+        <Pane layoutX="0.0" layoutY="0.0" prefHeight="400.0" prefWidth="601.0">
+            <children>
+                <ImageView blendMode="SRC_OVER" depthTest="ENABLE" fitHeight="406.3125" fitWidth="722.3333462000276" layoutX="-61.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@hl3.jpg" />
+                    </image>
+                </ImageView>
+                <Label alignment="CENTER_RIGHT" layoutX="44.0" layoutY="85.0" prefHeight="29.9609375" prefWidth="146.0" text="Логин:" textAlignment="RIGHT" textFill="WHITE" textOverrun="CLIP" underline="false">
+                    <font>
+                        <Font name="Times New Roman" size="20.0" fx:id="x1" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER_RIGHT" font="$x1" layoutX="44.0" layoutY="130.0" prefHeight="29.9609375" prefWidth="146.0" text="Пароль:" textAlignment="RIGHT" textFill="WHITE" textOverrun="CLIP" underline="false" />
+                <Button contentDisplay="CENTER" layoutX="44.0" layoutY="255.0" mnemonicParsing="false" prefHeight="63.9609375" prefWidth="146.0" text="Войти">
+                    <font>
+                        <Font name="Calibri" size="25.0" fx:id="x2" />
+                    </font>
+                </Button>
+                <Button contentDisplay="CENTER" font="$x2" layoutX="419.0" layoutY="255.0" mnemonicParsing="false" prefHeight="63.9609375" prefWidth="146.0" text="Отмена" />
+                <Button cancelButton="false" defaultButton="true" disable="false" layoutX="381.0" layoutY="349.0" minHeight="15.9609375" mnemonicParsing="false" prefHeight="29.9609375" prefWidth="192.0" text="Забыли пароль?" textAlignment="CENTER" />
+                <TextField layoutX="224.0" layoutY="85.0" prefHeight="29.9609375" prefWidth="275.0000999999975" promptText="введите сюда логин" text="" />
+                <PasswordField cache="false" layoutX="224.0" layoutY="130.0" mouseTransparent="false" prefHeight="29.9609375" prefWidth="275.000022070315" promptText="введите сюда пароль" text="" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
