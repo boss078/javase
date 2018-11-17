@@ -1,4 +1,3 @@
-import sun.management.GarbageCollectionNotifInfoCompositeData;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,5 +30,7 @@ public class Main {
         batMobile.shoot(batman);
         batMobile.reload();
         batMobile.selfDestroy(batman);
+        System.out.println("TARDIS:");
+        Car tardis = new Tardis();
     }
 }
